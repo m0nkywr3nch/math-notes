@@ -235,3 +235,56 @@ and:
 \]
 
 So (-1) raised to an odd power is always -1, (-1) raised to an even power is always 1.
+
+###Simplify examples
+
+example 1:
+
+\[
+  \frac{x^5 - y^{-2}}{x^3 y} = \frac{x^5}{x^3 y y^2} = \frac{x^{5-3}}{y^3} = \frac{x^2}{y^3}
+\]
+
+example 2:
+
+\[
+  \frac{
+    \frac{1}{x^2} - \frac{1}{y^2}
+  }{
+    \frac{1}{x} + \frac{1}{y}
+  }
+
+  =
+
+  \frac{
+    \frac{1}{x^2} \frac{y^2}{y^2} - \frac{1}{y^2} \frac{x^2}{x^2}
+  }{
+    \frac{1}{x} \frac{y}{y} + \frac{1}{y} \frac{x}{x}
+  }
+
+  =
+
+  \frac{
+    \frac{y^2 - x^2}{x^2 y^2}
+  }{
+    \frac{y + x}{xy}
+  }
+
+  =
+
+  \frac{y^2 - x^2}{x^2 y^2} \frac{xy}{y + x}
+
+  =
+
+  \frac{(y - x)(y + x) xy}{x^2 y^2 (y + x)}
+
+  =
+
+  \frac{y - x}{xy}
+
+\]
+
+#### Tips for Simplify
+
+* be carefull with grouping.
+* keep \(\frac{x}{x}\) form instead of \(x/x\) for handwriting.
+* always rewrite negative exponents immediately.
